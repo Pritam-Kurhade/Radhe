@@ -9,6 +9,10 @@ public static void main(String[] args) {
 	ll2.add(34);
 	ll2.add(45);
 	ll2.add(55);
-	System.out.println(ll2);
+	
+	for (Integer i:ll2) {
+		System.out.println(i);
+	}
+	//System.out.println(ll2);
 }
 }
