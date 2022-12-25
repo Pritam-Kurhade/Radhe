@@ -9,6 +9,6 @@ public class LinkedListDemo {
 		ll.add(3);
 		ll.add(5);
 		ll.add(6);
-		System.out.println(ll);
+	ll.stream().forEach(x->System.out.println(x));
 	}
 }

@@ -8,6 +8,6 @@ public class AraryListDemo {
 		ArrayList<String> al= new ArrayList<String>();
 		al.add("Pritam");
 		al.add("Suraj");
-		System.out.println(al);
+		al.stream().forEach(x->System.out.println(x));
 	}
 }
